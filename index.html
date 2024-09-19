@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Практическая 11 ВЫПАДАЮЩЕЕ МЕНЮ</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="header-block section">
+            <div class="header-logo">
+                <img src="assets/media/logo.png" alt="">
+            </div>
+
+            <div class="header-nav">
+                <a href="#">Главная</a>
+                <a href="#">Каталог</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
+            </div>
+
+            <div class="login-btn">
+                <button class="btn-login">Войти</button>
+            </div>
+        </div>
+
+        <div class="drop-down-list">
+            <div class="menu-elem">
+                <button class="menu-btn">Курс</button>
+                <div class="submenu">
+                    <div class="submenu-wrapper">
+                        <a href="#" class="submenu-elem">1 курс</a>
+                        <a href="#" class="submenu-elem">2 курс</a>
+                        <a href="#" class="submenu-elem">3 курс</a>
+                        <a href="#" class="submenu-elem">4 курс </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-elem">
+                <button class="menu-btn pers">Персонажи</button>
+                <div class="submenu">
+                    <div id="dropdownContent" class="submenu-wrapper">
+                        <a href="#" class="submenu-elem" id="btn-animate"
+                            data-img="assets/media/image_1.png">Винни-Пух</a>
+                        <a href="#" class="submenu-elem" data-img="assets/media/image_2.png">Пятачок</a>
+                        <a href="#" class="submenu-elem" data-img="assets/media/image_3.png">Чип</a>
+                        <a href="#" class="submenu-elem" data-img="assets/media/image_4.png">Дейл</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="section p-text">Нажмите на персонажей в списке :)</p>
+
+        <div class="img-block">
+            <img id="imageDisplay" src=""
+                alt="Изображение" class="hidden">
+        </div>
+
+    </header>
+    <!-- header end -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
